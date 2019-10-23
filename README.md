@@ -1,1 +1,1 @@
-#A simple Django server with CRUD operations
+A simple Django server with CRUD operations
