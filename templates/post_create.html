@@ -1,0 +1,7 @@
+<h1>Welcome to the Post {{type}} Page</h1>
+
+<form method = "POST" action=".">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit">Press ME</button>
+</form>
